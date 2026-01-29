@@ -9,8 +9,7 @@
         "player": {
           "name": "SwitchedCube"
         },
-        "color": "#ffffff",
-        "shadow_color": 0
+        "color": "#ffffff"
       }
     ],
     "min_format": [

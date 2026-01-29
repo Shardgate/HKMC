@@ -1,11 +1,23 @@
 {
-	"pack": {
-		"pack_format": 71,
-		"description": [
-			{
-				"text": "By SwitchedCube",
-				"color": "#FF631A"
-			}
-		]
-	}
+  "pack": {
+    "description": [
+      {
+        "text": "By SwitchedCube ",
+        "color": "#FF631A"
+      },
+      {
+        "player": {
+          "name": "SwitchedCube"
+        }
+      }
+    ],
+    "min_format": [
+      88,
+      0
+    ],
+    "max_format": [
+      88,
+      0
+    ]
+  }
 }

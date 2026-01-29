@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:iron_helmet",
+    "minecraft:soul_sand",
+    "minecraft:netherite_scrap"
+  ],
+  "result": {
+    "id": "minecraft:poisonous_potato",
+    "components": {
+      "!minecraft:consumable": {},
+      "minecraft:item_model": "hk:soul/mask_shard",
+      "minecraft:custom_data": {
+        "hk": {
+          "show_soul": false,
+          "name": "Mask Shard",
+          "type": "shard"
+        }
+      },
+      "minecraft:lore": [
+        {"translate": "hk.item.lore.mask_shard.1"},
+        {"translate": "hk.item.lore.mask_shard.2"}
+      ],
+      "minecraft:item_name": {"translate": "hk.item.name.mask_shard"}
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "YZY",
+    " X "
+  ],
+  "key": {
+    "A": "minecraft:amethyst_shard",
+    "X": "minecraft:iron_ingot",
+    "Z": "minecraft:ender_eye",
+    "Y": "minecraft:enchanted_golden_apple"
+  },
+  "result": {
+    "id": "minecraft:poisonous_potato",
+    "components": {
+      "!minecraft:consumable": {},
+      "minecraft:item_model": "hk:charms/unbreakable_heart",
+      "minecraft:custom_data": {
+        "hk": {
+          "show_soul": 0,
+          "type": "charms",
+          "notches": 2,
+          "name": "unbreakable_heart"
+        }
+      },
+      "minecraft:lore": [
+        {"translate": "hk.item.lore.unbreakable_heart.1"},
+        {"translate": "hk.item.lore.unbreakable_heart.2"}
+      ],
+      "minecraft:item_name": {"translate": "hk.item.name.unbreakable_heart"},
+      "minecraft:max_stack_size": 1
+    }
+  }
+}

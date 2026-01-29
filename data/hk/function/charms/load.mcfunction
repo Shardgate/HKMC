@@ -1,0 +1,95 @@
+scoreboard objectives add hk.charms.test_charm.obtained dummy
+scoreboard objectives add hk.charms.test_charm.active dummy
+
+scoreboard objectives add hk.charms.stalwart_shell.obtained dummy
+scoreboard objectives add hk.charms.stalwart_shell.active dummy
+scoreboard objectives add hk.charms.soul_catcher.obtained dummy
+scoreboard objectives add hk.charms.soul_catcher.active dummy
+scoreboard objectives add hk.charms.shaman_stone.obtained dummy
+scoreboard objectives add hk.charms.shaman_stone.active dummy
+scoreboard objectives add hk.charms.soul_eater.obtained dummy
+scoreboard objectives add hk.charms.soul_eater.active dummy
+scoreboard objectives add hk.charms.dashmaster.obtained dummy
+scoreboard objectives add hk.charms.dashmaster.active dummy
+scoreboard objectives add hk.charms.sprintmaster.obtained dummy
+scoreboard objectives add hk.charms.sprintmaster.active dummy
+scoreboard objectives add hk.charms.grubsong.obtained dummy
+scoreboard objectives add hk.charms.grubsong.active dummy
+scoreboard objectives add hk.charms.unbreakable_heart.obtained dummy
+scoreboard objectives add hk.charms.unbreakable_heart.active dummy
+scoreboard objectives add hk.charms.unbreakable_greed.obtained dummy
+scoreboard objectives add hk.charms.unbreakable_greed.active dummy
+scoreboard objectives add hk.charms.unbreakable_strength.obtained dummy
+scoreboard objectives add hk.charms.unbreakable_strength.active dummy
+scoreboard objectives add hk.charms.spell_twister.obtained dummy
+scoreboard objectives add hk.charms.spell_twister.active dummy
+scoreboard objectives add hk.charms.heavy_blow.obtained dummy
+scoreboard objectives add hk.charms.heavy_blow.active dummy
+scoreboard objectives add hk.charms.quick_slash.obtained dummy
+scoreboard objectives add hk.charms.quick_slash.active dummy
+scoreboard objectives add hk.charms.longnail.obtained dummy
+scoreboard objectives add hk.charms.longnail.active dummy
+scoreboard objectives add hk.charms.mark_of_pride.obtained dummy
+scoreboard objectives add hk.charms.mark_of_pride.active dummy
+scoreboard objectives add hk.charms.fury_of_the_fallen.obtained dummy
+scoreboard objectives add hk.charms.fury_of_the_fallen.active dummy
+scoreboard objectives add hk.charms.thorns_of_agony.obtained dummy
+scoreboard objectives add hk.charms.thorns_of_agony.active dummy
+scoreboard objectives add hk.charms.baldur_shell.obtained dummy
+scoreboard objectives add hk.charms.baldur_shell.active dummy
+scoreboard objectives add hk.charms.flukenest.obtained dummy
+scoreboard objectives add hk.charms.flukenest.active dummy
+scoreboard objectives add hk.charms.defenders_crest.obtained dummy
+scoreboard objectives add hk.charms.defenders_crest.active dummy
+scoreboard objectives add hk.charms.glowing_womb.obtained dummy
+scoreboard objectives add hk.charms.glowing_womb.active dummy
+scoreboard objectives add hk.charms.quick_focus.obtained dummy
+scoreboard objectives add hk.charms.quick_focus.active dummy
+scoreboard objectives add hk.charms.deep_focus.obtained dummy
+scoreboard objectives add hk.charms.deep_focus.active dummy
+scoreboard objectives add hk.charms.lifeblood_heart.obtained dummy
+scoreboard objectives add hk.charms.lifeblood_heart.active dummy
+scoreboard objectives add hk.charms.lifeblood_core.obtained dummy
+scoreboard objectives add hk.charms.lifeblood_core.active dummy
+scoreboard objectives add hk.charms.jonis_blessing.obtained dummy
+scoreboard objectives add hk.charms.jonis_blessing.active dummy
+scoreboard objectives add hk.charms.hiveblood.obtained dummy
+scoreboard objectives add hk.charms.hiveblood.active dummy
+scoreboard objectives add hk.charms.spore_shroom.obtained dummy
+scoreboard objectives add hk.charms.spore_shroom.active dummy
+scoreboard objectives add hk.charms.nailmasters_glory.obtained dummy
+scoreboard objectives add hk.charms.nailmasters_glory.active dummy
+scoreboard objectives add hk.charms.weaversong.obtained dummy
+scoreboard objectives add hk.charms.weaversong.active dummy
+scoreboard objectives add hk.charms.dream_wielder.obtained dummy
+scoreboard objectives add hk.charms.dream_wielder.active dummy
+scoreboard objectives add hk.charms.dreamshield.obtained dummy
+scoreboard objectives add hk.charms.dreamshield.active dummy
+scoreboard objectives add hk.charms.grimmchild.obtained dummy
+scoreboard objectives add hk.charms.grimmchild.active dummy
+scoreboard objectives add hk.charms.carefree_melody.obtained dummy
+scoreboard objectives add hk.charms.carefree_melody.active dummy
+scoreboard objectives add hk.charms.kingsoul.obtained dummy
+scoreboard objectives add hk.charms.kingsoul.active dummy
+scoreboard objectives add hk.charms.void_heart.obtained dummy
+scoreboard objectives add hk.charms.void_heart.active dummy
+
+scoreboard objectives add hk.charms.defenders_crest.cool dummy
+scoreboard objectives add hk.charms.jonis_blessing.active.old dummy
+scoreboard objectives add hk.charms.spore_shroom.cool dummy
+scoreboard objectives add hk.charms.spore_shroom.cool2 dummy
+scoreboard objectives add hk.charms.kingsoul.cool dummy
+
+scoreboard objectives add hk.charms.carefree_melody.hits dummy
+
+team add hk.charms.passives
+team modify hk.charms.passives collisionRule pushOwnTeam
+team modify hk.charms.passives friendlyFire false
+team modify hk.charms.passives seeFriendlyInvisibles false
+
+scoreboard objectives add hk.charms.hiveblood.start_time dummy
+
+scoreboard objectives add hk.charms.dreamshield.rotation dummy
+scoreboard objectives add hk.charms.dreamshield.cool dummy
+
+scoreboard objectives add hk.charms.grimmchild.cool dummy

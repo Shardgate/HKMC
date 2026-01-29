@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:emerald",
+    "minecraft:netherite_scrap",
+    "minecraft:gold_ingot",
+    "egg"
+  ],
+  "result": {
+    "id": "minecraft:poisonous_potato",
+    "components": {
+      "!minecraft:consumable": {},
+      "minecraft:item_model": "hk:collectible/arcane_egg",
+      "minecraft:custom_data": {
+        "hk": {
+          "show_soul": false,
+          "type": "collectible"
+        }
+      },
+      "minecraft:lore": [
+        {"translate": "hk.item.lore.arcane_egg.1"},
+        {"translate": "hk.item.lore.arcane_egg.2"}
+      ],
+      "minecraft:item_name": {"translate": "hk.item.name.arcane_egg"}
+    }
+  }
+}

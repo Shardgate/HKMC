@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:writable_book",
+    "minecraft:feather",
+    "minecraft:soul_sand",
+    "minecraft:ink_sac"
+  ],
+  "result": {
+    "id": "minecraft:poisonous_potato",
+    "components": {
+      "!minecraft:consumable": {},
+      "minecraft:item_model": "hk:collectible/wanderers_journal",
+      "minecraft:custom_data": {
+        "hk": {
+          "show_soul": false,
+          "type": "collectible"
+        }
+      },
+      "minecraft:lore": [
+        {"translate": "hk.item.lore.wanderers_journal.1"},
+        {"translate": "hk.item.lore.wanderers_journal.2"}
+      ],
+      "minecraft:item_name": {"translate": "hk.item.name.wanderers_journal"}
+    }
+  }
+}

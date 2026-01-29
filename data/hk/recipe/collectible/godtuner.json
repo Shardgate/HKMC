@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XY ",
+    "YZ ",
+    "  T"
+  ],
+  "key": {
+    "X": "minecraft:bell",
+    "Y": "minecraft:gold_ingot",
+    "Z": "minecraft:netherite_ingot",
+    "T": "breeze_rod"
+  },
+  "result": {
+    "id": "minecraft:poisonous_potato",
+    "components": {
+      "!minecraft:consumable": {},
+      "minecraft:item_model": "hk:collectible/godtuner",
+      "minecraft:custom_data": {
+        "hk": {
+          "show_soul": false,
+          "type": "collectible"
+        }
+      },
+      "minecraft:lore": [
+        {"translate": "hk.item.lore.godtuner.1"},
+        {"translate": "hk.item.lore.godtuner.2"}
+      ],
+      "minecraft:item_name": {"translate": "hk.item.name.godtuner"}
+    }
+  }
+}

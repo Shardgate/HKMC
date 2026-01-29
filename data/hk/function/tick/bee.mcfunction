@@ -1,0 +1,3 @@
+tag @s[tag=hk.charms.grimmchild.bee] remove hk.charms.grummchild
+execute as @s[tag=hk.charms.grimmchild.bee] at @s as @a if score @s hk.p.id = @n[tag=hk.charms.grimmchild.bee,distance=..0.1] hk.p.id if score @s hk.charms.grimmchild.active matches 1.. run tag @n[tag=hk.charms.grimmchild.bee,distance=..0.1] add hk.charms.grummchild
+execute if entity @s[tag=hk.charms.grimmchild.bee] unless entity @s[tag=hk.charms.grummchild] run kill @s

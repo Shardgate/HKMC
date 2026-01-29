@@ -1,0 +1,33 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "!minecraft:consumable": {},
+                "minecraft:item_model": "hk:collectible/shopkeeper_key",
+                "minecraft:custom_data": {
+                  "hk": {
+                    "show_soul": 0,
+                    "type": "collectible"
+                  }
+                },
+                "minecraft:lore": [
+                  {"translate": "hk.item.lore.shopkeepers_key.1"},
+                  {"translate": "hk.item.lore.shopkeepers_key.2"}
+                ],
+                "minecraft:item_name": {"translate": "hk.item.name.shopkeepers_key"}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

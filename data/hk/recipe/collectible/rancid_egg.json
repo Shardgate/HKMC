@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:resin_clump",
+    "minecraft:rotten_flesh",
+    "minecraft:turtle_egg"
+  ],
+  "result": {
+    "id": "minecraft:poisonous_potato",
+    "components": {
+      "!minecraft:consumable": {},
+      "minecraft:item_model": "hk:collectible/rancid_egg",
+      "minecraft:custom_data": {
+        "hk": {
+          "show_soul": 0,
+          "type": "collectible"
+        }
+      },
+      "minecraft:lore": [
+        {"translate": "hk.item.lore.rancid_egg.1"},
+        {"translate": "hk.item.lore.rancid_egg.2"}
+      ],
+      "minecraft:item_name": {"translate": "hk.item.name.rancid_egg"}
+    }
+  }
+}

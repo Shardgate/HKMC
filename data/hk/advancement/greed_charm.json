@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "main": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {},
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:is_player_attack",
+              "expected": true
+            }
+          ],
+          "source_entity": {
+            "type": "player"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "main"
+    ]
+  ],
+  "rewards": {
+    "function": "hk:charms/effect/unbreakable_greed"
+  }
+}

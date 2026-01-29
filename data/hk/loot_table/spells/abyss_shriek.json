@@ -1,0 +1,34 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "!minecraft:consumable": {},
+                "minecraft:item_model": "hk:spells/abyss_shriek",
+                "minecraft:custom_data": {
+                  "hk": {
+                    "show_soul": 0,
+                    "type": "spells"
+                  }
+                },
+                "minecraft:lore": [
+                  {"translate": "hk.item.lore.abyss_shriek.1"},
+                  {"translate": "hk.item.lore.abyss_shriek.2"}
+                ],
+                "minecraft:item_name": {"translate": "hk.item.name.abyss_shriek"},
+                "minecraft:max_stack_size": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

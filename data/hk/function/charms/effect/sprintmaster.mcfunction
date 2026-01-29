@@ -1,0 +1,2 @@
+execute unless score @s hk.charms.dashmaster.active matches 1.. run attribute @s minecraft:movement_speed modifier add hk:charms/sprintmaster 1.1 add_multiplied_total
+execute if score @s hk.charms.dashmaster.active matches 1.. run attribute @s minecraft:movement_speed modifier add hk:charms/sprintmaster 1.3 add_multiplied_total

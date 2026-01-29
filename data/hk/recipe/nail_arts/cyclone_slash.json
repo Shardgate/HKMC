@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:enchanted_book",
+    "minecraft:wind_charge",
+    "minecraft:feather",
+    "#minecraft:swords"
+  ],
+  "result": {
+    "id": "minecraft:poisonous_potato",
+    "components": {
+      "!minecraft:consumable": {},
+      "minecraft:item_model": "hk:nail_arts/cyclone_slash",
+      "minecraft:custom_data": {
+        "hk": {
+          "show_soul": false,
+          "type": "nail_arts"
+        }
+      },
+      "minecraft:lore": [
+        {"translate": "hk.item.lore.cyclone_slash.1"},
+        {"translate": "hk.item.lore.cyclone_slash.2"}
+      ],
+      "minecraft:item_name": {"translate": "hk.item.name.cyclone_slash"},
+      "minecraft:max_stack_size": 1
+    }
+  }
+}

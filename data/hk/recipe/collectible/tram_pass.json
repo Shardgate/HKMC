@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XY ",
+    "YZ ",
+    "  T"
+  ],
+  "key": {
+    "X": "minecraft:tripwire_hook",
+    "Y": "minecraft:piston",
+    "Z": "minecraft:comparator",
+    "T": "lightning_rod"
+  },
+  "result": {
+    "id": "minecraft:poisonous_potato",
+    "components": {
+      "!minecraft:consumable": {},
+      "minecraft:item_model": "hk:collectible/tram_pass",
+      "minecraft:custom_data": {
+        "hk": {
+          "show_soul": false,
+          "type": "collectible"
+        }
+      },
+      "minecraft:lore": [
+        {"translate": "hk.item.lore.tram_pass.1"},
+        {"translate": "hk.item.lore.tram_pass.2"}
+      ],
+      "minecraft:item_name": {"translate": "hk.item.name.tram_pass"}
+    }
+  }
+}

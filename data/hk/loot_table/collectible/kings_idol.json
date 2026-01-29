@@ -1,0 +1,33 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "!minecraft:consumable": {},
+                "minecraft:item_model": "hk:collectible/kings_idol",
+                "minecraft:custom_data": {
+                  "hk": {
+                    "show_soul": false,
+                    "type": "collectible"
+                  }
+                },
+                "minecraft:lore": [
+                  {"translate": "hk.item.lore.kings_idol.1"},
+                  {"translate": "hk.item.lore.kings_idol.2"}
+                ],
+                "minecraft:item_name": {"translate": "hk.item.name.kings_idol"}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+dialog show @s \
+{type:"minecraft:confirmation",inputs:[{type:"minecraft:text",key:"name",label:{translate:"hk.dialog.reset.rule.1"},label_visible:1b,max_length:16}],pause:0b,after_action:"close",title:{translate:"hk.dialog.admin_menu.main_menu.config.title"},yes:{label:{translate:"hk.dialog.admin_menu.confirm"},action:{type:"minecraft:dynamic/run_command",template:"function hk:admin_menu/reset/work {name: $(name)}"}},no:{label:{translate:"hk.dialog.admin_menu.exit"}}}

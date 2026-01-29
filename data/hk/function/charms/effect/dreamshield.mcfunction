@@ -1,0 +1,1 @@
+execute if entity @s[tag=!hk.charms.shield_active] at @s run function hk:charms/effect/dreamshield_summon

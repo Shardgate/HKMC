@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:iron_ingot",
+    "#minecraft:pale_oak_logs"
+  ],
+  "result": {
+    "id": "minecraft:poisonous_potato",
+    "components": {
+      "!minecraft:consumable": {},
+      "minecraft:item_model": "hk:nail/pale_ore",
+      "minecraft:custom_data": {
+        "hk": {
+          "show_soul": false,
+          "name": "Pale Ore",
+          "type": "ore"
+        }
+      },
+      "minecraft:lore": [
+        {"translate": "hk.item.lore.pale_ore.1"},
+        {"translate": "hk.item.lore.pale_ore.2"}
+      ],
+      "minecraft:item_name": {"translate": "hk.item.name.pale_ore"}
+    }
+  }
+}

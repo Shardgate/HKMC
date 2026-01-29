@@ -1,0 +1,79 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:attack_damage",
+                  "id": "hk:pure_nail",
+                  "amount": 10,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "replace": true
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "hk:nail/pure_nail",
+                "minecraft:unbreakable": {},
+                "tooltip_display": {"hidden_components":["minecraft:unbreakable"]}
+              }
+            },
+            {
+              "function": "minecraft:toggle_tooltips",
+              "toggles": {
+                "minecraft:unbreakable": false
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "hk": {
+                  "show_soul": true,
+                  "type": "nail",
+                  "nail_upgrade": 4,
+                  "name": "Pure Nail"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "translate": "hk.item.lore.pure_nail.1"
+                  }
+                ],
+                [                
+                  {
+                    "translate": "hk.item.lore.pure_nail.2"
+                  }
+                ]
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "italic":false,
+                "translate": "hk.item.name.pure_nail"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

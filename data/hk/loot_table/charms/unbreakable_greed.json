@@ -1,0 +1,36 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "!minecraft:consumable": {},
+                "minecraft:item_model": "hk:charms/unbreakable_greed",
+                "minecraft:custom_data": {
+                  "hk": {
+                    "show_soul": 0,
+                    "type": "charms",
+                    "notches": 2,
+                    "name": "unbreakable_greed"
+                  }
+                },
+                "minecraft:lore": [
+                  {"translate": "hk.item.lore.unbreakable_greed.1"},
+                  {"translate": "hk.item.lore.unbreakable_greed.2"}
+                ],
+                "minecraft:item_name": {"translate": "hk.item.name.unbreakable_greed"},
+                "minecraft:max_stack_size": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

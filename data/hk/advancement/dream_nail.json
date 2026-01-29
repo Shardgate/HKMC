@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "main": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": "minecraft:poisonous_potato",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "hk": {
+                    "type": "dream_nail"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "main"
+    ]
+  ],
+  "rewards": {
+    "function": "hk:nail/register_attack_dream",
+    "loot": []
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "minecraft:paper",
+    "X": "minecraft:ink_sac"
+  },
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "result": {
+    "id": "minecraft:poisonous_potato",
+    "components": {
+      "minecraft:item_model": "hk:collectible/map",
+      "minecraft:custom_data": {
+        "hk": {
+          "show_soul": false,
+          "type": "map"
+        }
+      },
+      "minecraft:lore": [
+        {"translate": "hk.item.lore.map.1"},
+        {"translate": "hk.item.lore.map.2"}
+      ],
+      "minecraft:item_name": {"translate": "hk.item.name.map"},
+      "minecraft:consumable": {
+        "consume_seconds": 0.01,
+        "animation": "none",
+        "sound": "minecraft:intentionally_empty",
+        "has_consume_particles": false,
+        "on_consume_effects": []
+      },
+      "!minecraft:food": {},
+                "minecraft:use_cooldown": {
+                  "seconds": 10,
+                  "cooldown_group": "hk:map_quill"
+                },
+                "max_stack_size": 1
+    }
+  }
+}

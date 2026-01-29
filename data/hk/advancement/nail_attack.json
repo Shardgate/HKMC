@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "main": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": "minecraft:iron_sword",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "hk": {
+                    "type": "nail"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "main"
+    ]
+  ],
+  "rewards": {
+    "function": "hk:nail/register_attack",
+    "loot": []
+  }
+}

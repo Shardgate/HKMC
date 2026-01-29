@@ -1,0 +1,2 @@
+summon minecraft:item_display ~ ~ ~ {Tags:["hk.charms.shield_dream"],item:{id:"minecraft:poisonous_potato",components:{item_model:"hk:dreamshield"}},item_display:"ground"}
+scoreboard players operation @n[tag=hk.charms.shield_dream,distance=..1] hk.p.id = @s hk.p.id

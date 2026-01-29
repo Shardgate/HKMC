@@ -1,0 +1,34 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "!minecraft:consumable": {},
+                "minecraft:item_model": "hk:abilities/crystal_heart",
+                "minecraft:custom_data": {
+                  "hk": {
+                    "show_soul": 0,
+                    "type": "abilities"
+                  }
+                },
+                "minecraft:lore": [
+                  {"translate": "hk.item.lore.crystal_heart.1"},
+                  {"translate": "hk.item.lore.crystal_heart.2"}
+                ],
+                "minecraft:item_name": {"translate": "hk.item.name.crystal_heart"},
+                "minecraft:max_stack_size": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

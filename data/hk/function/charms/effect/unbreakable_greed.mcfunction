@@ -1,0 +1,2 @@
+advancement revoke @s only hk:greed_charm
+execute at @s if score @s hk.charms.unbreakable_greed.obtained matches 1.. if score @s hk.charms.unbreakable_greed.active matches 1.. run loot spawn ~ ~ ~ loot hk:charms/effect/greed_charm

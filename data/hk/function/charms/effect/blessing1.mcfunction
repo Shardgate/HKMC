@@ -1,0 +1,1 @@
+effect give @s minecraft:absorption infinite 1 true

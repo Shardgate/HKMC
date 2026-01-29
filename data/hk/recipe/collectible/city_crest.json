@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XY ",
+    "YZ ",
+    "  T"
+  ],
+  "key": {
+    "X": "minecraft:lever",
+    "Y": "minecraft:smooth_stone",
+    "Z": "minecraft:lodestone",
+    "T": "blaze_rod"
+  },
+  "result": {
+    "id": "minecraft:poisonous_potato",
+    "components": {
+      "!minecraft:consumable": {},
+      "minecraft:item_model": "hk:collectible/city_crest",
+      "minecraft:custom_data": {
+        "hk": {
+          "show_soul": false,
+          "type": "collectible"
+        }
+      },
+      "minecraft:lore": [
+        {"translate": "hk.item.lore.city_crest.1"},
+        {"translate": "hk.item.lore.city_crest.2"}
+      ],
+      "minecraft:item_name": {"translate": "hk.item.name.city_crest"}
+    }
+  }
+}

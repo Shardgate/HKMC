@@ -1,0 +1,1 @@
+execute at @s as @e[type=marker,tag=hk.inv_store] if score @s hk.inv.id = @n hk.inv.id run function hk:shade/retrieve

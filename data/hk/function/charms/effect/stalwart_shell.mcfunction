@@ -1,0 +1,1 @@
+execute if entity @s[nbt={HurtTime:9s}] run effect give @s resistance 1 255 true

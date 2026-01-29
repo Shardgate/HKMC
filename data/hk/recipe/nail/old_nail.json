@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X",
+    "Y",
+    "Z"
+  ],
+  "key": {
+    "X": [
+      "minecraft:stripped_pale_oak_wood",
+      "minecraft:stripped_pale_oak_log",
+      "minecraft:pale_oak_wood",
+      "minecraft:pale_oak_log",
+      "minecraft:pale_oak_planks"
+    ],
+    "Y": "iron_ingot",
+    "Z": "#minecraft:swords"
+  },
+  "result": {
+    "id": "minecraft:iron_sword",
+    "components": {
+      "minecraft:item_model": "hk:nail/old_nail",
+      "minecraft:unbreakable": {},
+      "tooltip_display": {"hidden_components":["minecraft:unbreakable"]},
+      "minecraft:attribute_modifiers": [
+          {
+            "type": "minecraft:attack_damage",
+            "id": "hk:old_nail",
+            "amount": 2,
+            "operation": "add_value",
+            "slot": "mainhand"
+          }
+        ],
+      "minecraft:custom_data": {
+        "hk": {
+          "show_soul": true,
+          "type": "nail",
+          "nail_upgrade": 0,
+          "name": "Old Nail"
+        }
+      },
+      "minecraft:lore": [
+        {"translate": "hk.item.lore.old_nail.1"},
+        {"translate": "hk.item.lore.old_nail.2"}
+      ],
+      "minecraft:item_name": {"translate": "hk.item.name.old_nail"}
+    }
+  }
+}

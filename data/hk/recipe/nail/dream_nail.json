@@ -1,0 +1,72 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X",
+    "Y",
+    "Z"
+  ],
+  "key": {
+    "X": "minecraft:soul_sand",
+    "Y": "minecraft:lapis_lazuli",
+    "Z": "#minecraft:swords"
+  },
+  "result": {
+    "id": "minecraft:poisonous_potato",
+    "components": {
+      "minecraft:item_model": "hk:nail/dream_nail",
+      "minecraft:unbreakable": {},
+      "tooltip_display": {"hidden_components":["minecraft:unbreakable","minecraft:attribute_modifiers"]},
+      "minecraft:attribute_modifiers": [
+          {
+            "type": "minecraft:attack_speed",
+            "id": "hk:dream_nail",
+            "amount": -3.33,
+            "operation": "add_value",
+            "slot": "mainhand"
+          },
+          {
+            "type": "minecraft:attack_damage",
+            "id": "hk:dream_nail",
+            "amount": 0,
+            "operation": "add_multiplied_total",
+            "slot": "mainhand"
+          }
+        ],
+      "minecraft:custom_data": {
+        "hk": {
+          "show_soul": true,
+          "type": "dream_nail",
+          "nail_upgrade": 0,
+          "name": "Dream Nail"
+        }
+      },
+      "minecraft:lore": [
+        {"translate": "hk.item.lore.dream_nail.1"},
+        {"translate": "hk.item.lore.dream_nail.2"}
+      ],
+      "minecraft:item_name": {"translate": "hk.item.name.dream_nail"},
+      "minecraft:use_cooldown": {
+        "seconds": 2,
+        "cooldown_group": "hk:dream_nail"
+      },
+      "minecraft:consumable": {
+        "consume_seconds": 1.6,
+        "animation": "bow",
+        "sound": "minecraft:intentionally_empty",
+        "has_consume_particles": false,
+        "on_consume_effects": [
+          {
+            "type": "minecraft:play_sound",
+            "sound": "minecraft:block.trial_spawner.spawn_item"
+          }
+        ]
+      },
+      "minecraft:food": {
+        "nutrition": 0,
+        "saturation": 0,
+        "can_always_eat": true
+      },
+      "minecraft:max_stack_size": 1
+    }
+  }
+}

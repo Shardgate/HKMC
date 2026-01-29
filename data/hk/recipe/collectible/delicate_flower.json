@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#minecraft:pale_oak_logs",
+    "#minecraft:small_flowers"
+  ],
+  "result": {
+    "id": "minecraft:poisonous_potato",
+    "components": {
+      "!minecraft:consumable": {},
+      "minecraft:item_model": "hk:collectible/delicate_flower",
+      "minecraft:custom_data": {
+        "hk": {
+          "show_soul": false,
+          "type": "collectible"
+        }
+      },
+      "minecraft:lore": [
+        {"translate": "hk.item.lore.delicate_flower.1"},
+        {"translate": "hk.item.lore.delicate_flower.2"}
+      ],
+      "minecraft:item_name": {"translate": "hk.item.name.delicate_flower"}
+    }
+  }
+}

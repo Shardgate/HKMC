@@ -1,0 +1,1 @@
+execute if entity @s[tag=!hk.charms.child_active] at @s run function hk:charms/effect/grimmchild_summon

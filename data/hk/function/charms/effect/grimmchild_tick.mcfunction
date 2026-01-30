@@ -5,8 +5,8 @@ tag @p add hk.charms.child_active
 team join hk.charms.passives @p
 
 data remove entity @s hive_pos
-data remove entity @s AngryAt
-data modify entity @s AngerTime set value 0
+data remove entity @s angry_at
+data modify entity @s anger_end_time set value 0
 data modify entity @s InLove set value 0
 data remove entity @s LoveCause
 data modify entity @s TicksSincePollination set value 0

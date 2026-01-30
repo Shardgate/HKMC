@@ -2,7 +2,7 @@ tellraw @a {translate: "hk.reload.message.global",fallback:"-- [HKMC] Resourcepa
 tellraw @a {translate: "hk.reload.message.admin"}
 tellraw @a {translate: "hk.reload.message.player"}
 
-gamerule sendCommandFeedback false
+gamerule send_command_feedback false
 
 schedule function hk:lantern/main_10t 10t
 function hk:soul/load

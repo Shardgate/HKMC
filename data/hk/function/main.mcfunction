@@ -1,4 +1,4 @@
-gamerule keepInventory true
+gamerule keep_inventory true
 
 execute as @a run function hk:tick/player
 execute as @e[type=item] run function hk:tick/item

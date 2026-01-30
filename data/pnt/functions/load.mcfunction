@@ -1,1 +1,0 @@
-execute unless entity 00000070-0000-006e-0000-007400000078 in minecraft:overworld run function pnt:setup/load_once

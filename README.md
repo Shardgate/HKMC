@@ -126,7 +126,7 @@ Also have to be crafted. The following list specifies all collectibles with cust
 
 ### =====License=================================================
 
-HKMC © 2025-2026 by SwitchedCube is licensed under Creative Commons Attribution-NonCommercial 4.0 International. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/4.0/
+HKMC © 2025-2026 by Shardgate Studios is licensed under Creative Commons Attribution-NonCommercial 4.0 International. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/4.0/
 
 An exception is made for video content, which can be monetized. However,
 video creators must give appropriate credit by leaving a link to this page.

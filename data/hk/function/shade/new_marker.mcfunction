@@ -1,5 +1,5 @@
 # summon marker
-summon marker ~ ~ ~ {Tags:["hk.inv_store","hk.inv_new"]}
+summon marker ~ ~ ~ {Tags:["smithed.entity","smithed.strict","hk.inv_store","hk.inv_new"]}
 
 # link marker to player    
 scoreboard players operation @n[tag=hk.inv_new] hk.inv.id = @s hk.inv.id

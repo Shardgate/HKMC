@@ -1,7 +1,7 @@
-execute as @s[tag=hk.charms.missile] at @s anchored eyes unless entity @n[team=!hk.charms.passives,type=#hk:hostile,distance=..7] run kill @s
-execute as @s[tag=hk.charms.missile] at @s anchored eyes facing entity @n[team=!hk.charms.passives,type=#hk:hostile,distance=..7] feet positioned ^ ^ ^2 rotated as @s positioned ^ ^ ^5 facing entity @s eyes facing ^ ^ ^-1 positioned as @s run tp @s ^ ^ ^0.5 ~ ~
-execute as @s[tag=hk.charms.missile] at @s anchored eyes if entity @n[team=!hk.charms.passives,type=#hk:hostile,distance=..1] run damage @n[team=!hk.charms.passives,type=#hk:hostile,distance=..1] 12 fireball
-execute as @s[tag=hk.charms.missile] at @s anchored eyes if entity @n[team=!hk.charms.passives,type=#hk:hostile,distance=..1] run kill @s
+execute as @s[tag=hk.charms.missile] at @s anchored eyes unless entity @n[team=!hk.charms.passives,type=#hk:hostile,distance=..7, tag=!smithed.entity] run kill @s
+execute as @s[tag=hk.charms.missile] at @s anchored eyes facing entity @n[team=!hk.charms.passives,type=#hk:hostile,distance=..7, tag=!smithed.entity] feet positioned ^ ^ ^2 rotated as @s positioned ^ ^ ^5 facing entity @s eyes facing ^ ^ ^-1 positioned as @s run tp @s ^ ^ ^0.5 ~ ~
+execute as @s[tag=hk.charms.missile] at @s anchored eyes if entity @n[team=!hk.charms.passives,type=#hk:hostile,distance=..1, tag=!smithed.entity] run damage @n[team=!hk.charms.passives,type=#hk:hostile,distance=..1, tag=!smithed.entity] 12 fireball
+execute as @s[tag=hk.charms.missile] at @s anchored eyes if entity @n[team=!hk.charms.passives,type=#hk:hostile,distance=..1, tag=!smithed.entity] run kill @s
 execute as @s[tag=hk.charms.missile] at @s anchored eyes unless block ^ ^ ^ #minecraft:replaceable run kill @s
 
 tag @s[tag=hk.charms.shield_dream] remove hk.charms.dreamshiled

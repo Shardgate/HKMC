@@ -1,5 +1,5 @@
 # summon a new item entity
-summon item ~ ~ ~ {Item:{id:"minecraft:stone",count:1},Tags:["hk.inv.new_item"]}
+summon item ~ ~ ~ {Item:{id:"minecraft:stone",count:1},Tags:["smithed.entity","smithed.strict","hk.inv.new_item"]}
 # copy the info about the entity from the marker entity
 data modify entity @e[type=item,tag=hk.inv.new_item,limit=1] Item set from entity @s data.Inventory[0]
 # remove the item from the marker

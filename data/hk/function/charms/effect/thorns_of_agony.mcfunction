@@ -1,2 +1,2 @@
-execute if entity @s[nbt={HurtTime:9s}] at @s as @e[type=#hk:hostile,distance=0.01..3] run damage @s 6 player_attack by @p
+execute if entity @s[nbt={HurtTime:9s}] at @s as @e[type=#hk:hostile,distance=0.01..3, tag=!smithed.entity] run damage @s 6 player_attack by @p
 execute if entity @s[nbt={HurtTime:9s}] at @s run playsound enchant.thorns.hit player @a ~ ~ ~ 1

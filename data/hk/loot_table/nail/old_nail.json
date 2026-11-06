@@ -24,6 +24,7 @@
                     }
                   ],
                 "minecraft:custom_data": {
+                  "smithed":{"ignore":{"functionality":1,"crafting":1}},
                   "hk": {
                     "show_soul": true,
                     "type": "nail",

@@ -12,6 +12,7 @@
               "components": {
                 "minecraft:item_model": "hk:soul/ability_wheel",
                 "minecraft:custom_data": {
+                  "smithed":{"ignore":{"everything":1}},
                   "hk": {
                     "show_soul": true,
                     "type": "ability_wheel"

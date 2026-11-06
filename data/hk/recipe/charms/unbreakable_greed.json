@@ -17,6 +17,7 @@
       "!minecraft:consumable": {},
       "minecraft:item_model": "hk:charms/unbreakable_greed",
       "minecraft:custom_data": {
+        "smithed":{"ignore":{"functionality":1,"crafting":1}},
         "hk": {
           "show_soul": 0,
           "type": "charms",

@@ -5,9 +5,12 @@ particle minecraft:cloud ^ ^ ^-0.25 0.5 0.5 0.5 0.15 10 force
 
 # Check if the raycast has hit an entity's hitbox
 execute align xyz positioned ~0.5 ~0.5 ~0.5 if entity @e[type=#hk:hostile,tag=!hk.dash.raycaster,distance=..1, tag=!smithed.entity] if score @s hk.dash.raycast matches 1.. run return run function hk:abilities/dash/damage_dash
-execute unless block ~ ~ ~ #minecraft:replaceable if score @s hk.dash.raycast matches 1.. run return run function hk:abilities/dash/damage_dash
+execute positioned ~ ~1 ~ align xyz positioned ~0.5 ~0.5 ~0.5 if entity @e[type=#hk:hostile,tag=!hk.dash.raycaster,distance=..1, tag=!smithed.entity] if score @s hk.dash.raycast matches 1.. run return run function hk:abilities/dash/damage_dash
 
-tp @s ~ ~-1.5 ~
+execute unless block ~ ~ ~ #minecraft:replaceable if score @s hk.dash.raycast matches 1.. run return run function hk:abilities/dash/damage_dash
+execute unless block ~ ~1 ~ #minecraft:replaceable if score @s hk.dash.raycast matches 1.. run return run function hk:abilities/dash/damage_dash
+
+tp @s ~ ~ ~
 effect give @s slow_falling 1 1 true
 
 # If the raycast has not hit a wall, and the limit has not been reached, move the hk.dash.raycast forward and run the function again

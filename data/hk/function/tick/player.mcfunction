@@ -105,12 +105,12 @@ function hk:abilities/generic_dash
 
 # Dash
 execute if score @s hk.dash.raycast.cool matches 1.. run scoreboard players remove @s hk.dash.raycast.cool 1
-execute if score @s hk.dash.raycast.cool matches 1 at @s anchored eyes positioned ^ ^ ^1 run function hk:abilities/dash/raycast
+execute if score @s hk.dash.raycast.cool matches 1 at @s anchored feet rotated ~ 0 positioned ^ ^ ^1 run function hk:abilities/dash/raycast
 
 # Sdash
 execute if score @s hk.sdash.raycast.cool matches 1.. run scoreboard players remove @s hk.sdash.raycast.cool 1
-execute if score @s hk.sdash.raycast.cool matches 1 at @s anchored eyes positioned ^ ^ ^1 run function hk:abilities/sdash/raycast
+execute if score @s hk.sdash.raycast.cool matches 1 at @s anchored feet rotated ~ 0 positioned ^ ^ ^1 run function hk:abilities/sdash/raycast
 
 # Dash_slash
 execute if score @s hk.dash_slash.raycast.cool matches 1.. run scoreboard players remove @s hk.dash_slash.raycast.cool 1
-execute if score @s hk.dash_slash.raycast.cool matches 1 at @s anchored eyes rotated ~ 0 positioned ^ ^ ^1 run function hk:abilities/dash_slash/raycast
+execute if score @s hk.dash_slash.raycast.cool matches 1 at @s anchored feet rotated ~ 0 positioned ^ ^ ^1 run function hk:abilities/dash_slash/raycast

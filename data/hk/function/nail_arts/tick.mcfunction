@@ -23,7 +23,7 @@ execute at @s[tag=hkna_charging,scores={hkna_sword_timer=49}] run playsound mine
 #Nail Arts
 execute as @s[tag=hkna_has_sword] as @s[tag=hk.cyclone_slash, scores={hkna_sword_timer=50},predicate=!hk:sneaking,x_rotation=90] at @s run function hk:nail_arts/cyclone_slash
 execute as @s[tag=hkna_has_sword] as @s[tag=hk.cyclone_slash,scores={hkna_sword_timer=50},predicate=!hk:sneaking,x_rotation=-90] at @s run function hk:nail_arts/cyclone_slash
-execute as @s[tag=hkna_has_sword] as @s[tag=hk.great_slash,scores={hkna_sword_timer=50},predicate=!hk:sneaking,tag=!hk.sprinting] unless entity @s[x_rotation=90] unless entity @s[x_rotation=-90] at @s run function hk:nail_arts/great_slash
+execute as @s[tag=hkna_has_sword] anchored feet rotated ~ 0 as @s[tag=hk.great_slash,scores={hkna_sword_timer=50},predicate=!hk:sneaking,tag=!hk.sprinting] unless entity @s[x_rotation=90] unless entity @s[x_rotation=-90] at @s run function hk:nail_arts/great_slash
 
 execute as @s[tag=hk.cyclone_slash, scores={hkna_sword_timer=50},predicate=!hk:sneaking,x_rotation=90] at @s run scoreboard players set @s hkna_sword_timer 0
 execute as @s[tag=hk.cyclone_slash,scores={hkna_sword_timer=50},predicate=!hk:sneaking,x_rotation=-90] at @s run scoreboard players set @s hkna_sword_timer 0

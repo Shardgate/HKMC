@@ -18,7 +18,7 @@
                     {
                       "type": "minecraft:attack_damage",
                       "id": "hk:old_nail",
-                      "amount": 2,
+                      "amount": 3,
                       "operation": "add_value",
                       "slot": "mainhand"
                     }

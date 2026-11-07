@@ -14,7 +14,7 @@
                 {
                   "attribute": "minecraft:attack_damage",
                   "id": "hk:coiled_nail",
-                  "amount": 8,
+                  "amount": 7,
                   "operation": "add_value",
                   "slot": "mainhand"
                 }

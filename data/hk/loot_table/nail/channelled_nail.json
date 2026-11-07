@@ -14,7 +14,7 @@
                 {
                   "attribute": "minecraft:attack_damage",
                   "id": "hk:channelled_nail",
-                  "amount": 6,
+                  "amount": 5,
                   "operation": "add_value",
                   "slot": "mainhand"
                 }

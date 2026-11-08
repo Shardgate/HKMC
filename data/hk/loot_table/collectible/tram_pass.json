@@ -25,6 +25,10 @@
                 ],
                 "minecraft:item_name": {"translate": "hk.item.name.tram_pass"}
               }
+            },
+            {
+              "function": "minecraft:reference",
+              "name": "hk:tooltip"
             }
           ]
         }

@@ -18,6 +18,12 @@
         }
       },
       "minecraft:lore": [
+        {
+          "text": "❤ HKMC",
+          "color": "white",
+          "font": "hk:tooltip",
+          "italic": false
+        },
         {"translate": "hk.item.lore.mothwing_cloak.1"},
         {"translate": "hk.item.lore.mothwing_cloak.2"}
       ],

@@ -71,6 +71,10 @@
                 "italic":false,
                 "translate": "hk.item.name.coiled_nail"
               }
+            },
+            {
+              "function": "minecraft:reference",
+              "name": "hk:tooltip"
             }
           ]
         }

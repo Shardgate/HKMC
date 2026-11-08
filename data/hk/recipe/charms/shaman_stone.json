@@ -26,6 +26,12 @@
         }
       },
       "minecraft:lore": [
+        {
+          "text": "❤ HKMC",
+          "color": "white",
+          "font": "hk:tooltip",
+          "italic": false
+        },
         {"translate": "hk.item.lore.shaman_stone.1"},
         {"translate": "hk.item.lore.shaman_stone.2"}
       ],

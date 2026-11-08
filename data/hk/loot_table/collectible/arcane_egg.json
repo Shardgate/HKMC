@@ -25,6 +25,10 @@
                 ],
                 "minecraft:item_name": {"translate": "hk.item.name.arcane_egg"}
               }
+            },
+            {
+              "function": "minecraft:reference",
+              "name": "hk:tooltip"
             }
           ]
         }

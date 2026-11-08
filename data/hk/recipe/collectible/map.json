@@ -22,6 +22,12 @@
         }
       },
       "minecraft:lore": [
+        {
+          "text": "❤ HKMC",
+          "color": "white",
+          "font": "hk:tooltip",
+          "italic": false
+        },
         {"translate": "hk.item.lore.map.1"},
         {"translate": "hk.item.lore.map.2"}
       ],

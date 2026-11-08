@@ -26,6 +26,10 @@
                 "minecraft:item_name": {"translate": "hk.item.name.descending_dark"},
                 "minecraft:max_stack_size": 1
               }
+            },
+            {
+              "function": "minecraft:reference",
+              "name": "hk:tooltip"
             }
           ]
         }

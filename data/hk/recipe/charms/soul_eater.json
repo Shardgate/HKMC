@@ -26,6 +26,12 @@
         }
       },
       "minecraft:lore": [
+        {
+          "text": "❤ HKMC",
+          "color": "white",
+          "font": "hk:tooltip",
+          "italic": false
+        },
         {"translate": "hk.item.lore.soul_eater.1"},
         {"translate": "hk.item.lore.soul_eater.2"}
       ],

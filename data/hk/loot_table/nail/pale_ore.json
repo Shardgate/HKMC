@@ -26,6 +26,10 @@
                 ],
                 "minecraft:item_name": {"translate": "hk.item.name.pale_ore"}
               }
+            },
+            {
+              "function": "minecraft:reference",
+              "name": "hk:tooltip"
             }
           ]
         }

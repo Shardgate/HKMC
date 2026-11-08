@@ -20,6 +20,12 @@
         }
       },
       "minecraft:lore": [
+        {
+          "text": "❤ HKMC",
+          "color": "white",
+          "font": "hk:tooltip",
+          "italic": false
+        },
         {"translate": "hk.item.lore.vengeful_spirit.1"},
         {"translate": "hk.item.lore.vengeful_spirit.2"}
       ],

@@ -38,6 +38,10 @@
                 ],
                 "minecraft:item_name": {"translate": "hk.item.name.old_nail"}
               }
+            },
+            {
+              "function": "minecraft:reference",
+              "name": "hk:tooltip"
             }
           ]
         }

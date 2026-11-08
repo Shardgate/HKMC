@@ -26,6 +26,12 @@
         }
       },
       "minecraft:lore": [
+        {
+          "text": "❤ HKMC",
+          "color": "white",
+          "font": "hk:tooltip",
+          "italic": false
+        },
         {"translate": "hk.item.lore.stalwart_shell.1"},
         {"translate": "hk.item.lore.stalwart_shell.2"}
       ],

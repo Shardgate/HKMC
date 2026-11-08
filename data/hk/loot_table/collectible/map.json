@@ -37,6 +37,10 @@
                 },
                 "max_stack_size": 1
               }
+            },
+            {
+              "function": "minecraft:reference",
+              "name": "hk:tooltip"
             }
           ]
         }

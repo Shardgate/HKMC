@@ -1,0 +1,13 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    {
+      "text": "❤ HKMC",
+      "color": "white",
+      "font": "hk:tooltip",
+      "italic": false
+    }
+  ],
+  "mode": "insert",
+  "offset": 0
+}

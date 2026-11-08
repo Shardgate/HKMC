@@ -26,6 +26,10 @@
                 ],
                 "minecraft:item_name": {"translate": "hk.item.name.vessel_fragment"}
               }
+            },
+            {
+              "function": "minecraft:reference",
+              "name": "hk:tooltip"
             }
           ]
         }

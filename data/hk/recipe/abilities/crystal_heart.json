@@ -19,6 +19,12 @@
         }
       },
       "minecraft:lore": [
+        {
+          "text": "❤ HKMC",
+          "color": "white",
+          "font": "hk:tooltip",
+          "italic": false
+        },
         {"translate": "hk.item.lore.crystal_heart.1"},
         {"translate": "hk.item.lore.crystal_heart.2"}
       ],

@@ -25,6 +25,10 @@
                 ],
                 "minecraft:item_name": {"translate": "hk.item.name.elegant_key"}
               }
+            },
+            {
+              "function": "minecraft:reference",
+              "name": "hk:tooltip"
             }
           ]
         }

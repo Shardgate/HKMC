@@ -26,6 +26,12 @@
         }
       },
       "minecraft:lore": [
+        {
+          "text": "❤ HKMC",
+          "color": "white",
+          "font": "hk:tooltip",
+          "italic": false
+        },
         {"translate": "hk.item.lore.fury_of_the_fallen.1"},
         {"translate": "hk.item.lore.fury_of_the_fallen.2"}
       ],

@@ -1,6 +1,6 @@
-tellraw @a {translate: "hk.reload.message.global",fallback:"-- [HKMC] Resourcepack Missing --"}
-tellraw @a {translate: "hk.reload.message.admin"}
-tellraw @a {translate: "hk.reload.message.player"}
+tellraw @a ["\n",{translate: "hk.reload.message.global",fallback:"-- [HKMC] Resourcepack Missing --", with:[{text:"❤ hkmc",font:"hk:tooltip"}], "hover_event":{"action":"show_text","value":[{translate: "hk.reload.message.admin"},"\n",{translate: "hk.reload.message.player"}]}}]
+# tellraw @a {translate: "hk.reload.message.admin"}
+# tellraw @a {translate: "hk.reload.message.player"}
 
 gamerule send_command_feedback false
 

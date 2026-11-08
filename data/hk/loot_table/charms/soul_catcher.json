@@ -28,6 +28,10 @@
                 "minecraft:item_name": {"translate": "hk.item.name.soul_catcher"},
                 "minecraft:max_stack_size": 1
               }
+            },
+            {
+              "function": "minecraft:reference",
+              "name": "hk:tooltip"
             }
           ]
         }

@@ -3,7 +3,7 @@ execute if entity @s[tag=hk.dash.cooldown] run return fail
 execute at @s run tp @s ~ ~ ~ ~ 0
 
 execute store result score @s hk.dash_slash.raycast run data get entity @s Rotation[1]
-execute unless score @s hk.dash_slash.raycast matches -45..45 run return fail
+execute unless score @s hk.dash_slash.raycast matches -20..20 run return fail
 
 # Tag the hk.dash_slash.raycaster
 tag @s add hk.dash_slash.raycaster

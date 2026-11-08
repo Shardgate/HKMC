@@ -42,6 +42,12 @@
         }
       },
       "minecraft:lore": [
+        {
+          "text": "❤ HKMC",
+          "color": "white",
+          "font": "hk:tooltip",
+          "italic": false
+        },
         {"translate": "hk.item.lore.dream_nail.1"},
         {"translate": "hk.item.lore.dream_nail.2"}
       ],

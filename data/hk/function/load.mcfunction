@@ -82,3 +82,10 @@ execute unless score .global hk.charms.enabled matches -2147483648..2147483647 r
 
 scoreboard objectives add hk.items.menu.trigger_equip trigger
 scoreboard objectives add hk.items.charms.menu.trigger_equip trigger
+
+# Lantern Load Convention
+scoreboard players set hk.version.major load.status 1
+scoreboard players set hk.version.minor load.status 2
+scoreboard players set hk.version.patch load.status 0
+
+schedule function hk:main 1t

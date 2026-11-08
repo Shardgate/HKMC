@@ -8,3 +8,6 @@ function hk:tick/armor_stand
 execute as @e[type=bee,tag=hk.charms.grimmchild.bee] run function hk:tick/bee
 
 execute as @e[type=marker] run function hk:tick/marker2
+
+# Lantern Load Convention
+schedule function hk:main 1t

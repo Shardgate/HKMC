@@ -21,6 +21,7 @@
         "color": "green"
       }
     ],
+    "pack_format": 94,
     "min_format": [
       94,
       0
@@ -28,6 +29,37 @@
     "max_format": [
       94,
       0
+    ],
+  },
+  "overlays": {
+    "entries": [
+      {
+        "formats": [
+          45,
+          93
+        ],
+        "min_format": [
+          45,
+          0
+        ],
+        "max_format": [
+          93,
+          2147483647
+        ],
+        "directory": "invalid_version"
+      },
+      {
+        "formats": [
+          94,
+          2147483647
+        ],
+        "min_format": [
+          94,
+          1
+        ],
+        "max_format": 2147483647,
+        "directory": "invalid_version"
+      }
     ]
   }
 }
